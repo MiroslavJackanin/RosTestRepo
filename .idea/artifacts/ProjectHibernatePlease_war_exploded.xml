@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ProjectHibernatePlease:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/ProjectHibernatePlease_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="ProjectHibernatePlease/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ProjectHibernatePlease" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Spring-5.2.3.RELEASE" />
+          <element id="library" level="project" name="Spring MVC-5.2.3.RELEASE" />
+          <element id="library" level="project" name="Hibernate 5.4.11-5.4.11" />
+          <element id="library" level="project" name="mysql-connector-java-8.0.18" />
+          <element id="library" level="project" name="hibernate-c3p0-5.4.11.Final" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
